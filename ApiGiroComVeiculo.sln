@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC7C51C9-2FE9-4979-895E-D3543F9B4614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGiroComVeiculo.Api", "src\ApiGiroComVeiculo.Api\ApiGiroComVeiculo.Api.csproj", "{6120F300-166F-45C5-BBE9-84DA25B3A3B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGiroComVeiculo.Test", "src\ApiGiroComVeiculo.Test\ApiGiroComVeiculo.Test.csproj", "{93FE8185-9CCC-40CE-9798-28F304BA5409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{2CF3EE6E-4618-4A8B-9F34-8F598E516447}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6120F300-166F-45C5-BBE9-84DA25B3A3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6120F300-166F-45C5-BBE9-84DA25B3A3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6120F300-166F-45C5-BBE9-84DA25B3A3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6120F300-166F-45C5-BBE9-84DA25B3A3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FE8185-9CCC-40CE-9798-28F304BA5409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FE8185-9CCC-40CE-9798-28F304BA5409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FE8185-9CCC-40CE-9798-28F304BA5409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FE8185-9CCC-40CE-9798-28F304BA5409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6120F300-166F-45C5-BBE9-84DA25B3A3B5} = {EC7C51C9-2FE9-4979-895E-D3543F9B4614}
+		{93FE8185-9CCC-40CE-9798-28F304BA5409} = {EC7C51C9-2FE9-4979-895E-D3543F9B4614}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333FFAA2-A482-44EA-A42D-4197A8E8CAB0}
+	EndGlobalSection
+EndGlobal
