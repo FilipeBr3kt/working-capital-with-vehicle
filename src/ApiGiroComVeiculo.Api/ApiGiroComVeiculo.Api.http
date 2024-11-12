@@ -1,0 +1,6 @@
+@ApiGiroComVeiculo.Api_HostAddress = http://localhost:5182
+
+GET {{ApiGiroComVeiculo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
